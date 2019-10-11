@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+#statList {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    color: #ffffff;
+    padding: 5px;
+    font-family:Monospace;
+    font-size:13px;
+    text-align:left;
+}
+
+#fileMenu{
+    list-style-type: none;
+    text-align: center;
+    display:none;
+    z-index:100;
+    position:absolute;
+    display:none;
+    height:57px;
+    width:60px;
+    padding:0;
+    margin:0;
+    background: #f5f4f4;
+}
+
+#fileMenu li {
+    font: 200 12px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+#fileMenu li:hover{
+    background: #a09c9c;
+}
+
+#folderMenu{
+    list-style-type: none;
+    text-align: center;
+    display:none;
+    z-index:100;
+    position:absolute;
+    height:57px;
+    width:80px;
+    padding:0;
+    margin:0;
+    background: #f5f4f4;
+}
+
+#folderMenu li {
+    font: 200 12px/1.5 Helvetica, Verdana, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+#folderMenu li:hover{
+    background: #a09c9c;
+}
+
+#inputForm {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+input {
+    display:none;
+    z-index:100;
+    position:absolute;
+    height:12px;
+    width:200px;
+    margin: 10px;
+    padding: 5px;
+    background: transparent;
+    border-radius: .25em;
+}
+
+input:focus {
+    outline: none;
+    color:rgba(255,255,255,.75);
+	border-color:rgba(255,255,255,.75);
+}

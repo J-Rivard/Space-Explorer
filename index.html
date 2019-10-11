@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Finder Explorer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="stats">
+        <ul id="statList"></ul>
+    </div>
+
+    <div id ="inputForm">
+        <input type="text" placeholder="Destination Path" id="moveForm">
+        <input type="text" placeholder="New Folder Name" id="mkdirForm">
+        <input type="text" placeholder="New File Name" id="touchForm">
+    </div>
+
+    <ul id="fileMenu">
+        <li id="copy">Copy</li>
+        <li id="move">Move</li>
+        <li id="rm">Delete</li>
+    </ul>
+
+    <ul id="folderMenu">
+        <li id="paste">Paste</li>
+        <li id="mkdir">New Folder</li>
+        <li id="touch">New File</li>
+    </ul>
+
+    <script src=three.min.js></script>
+    <script src=TrackballControls.js></script>
+    <script src=sceneCreator.js></script>
+</body>
+
+</html>
